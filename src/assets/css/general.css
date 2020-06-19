@@ -1,0 +1,200 @@
+body 
+{
+    background-color: #FFF !important;
+}
+
+.main-content
+{
+    float: none;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.main-content-row
+{
+    height: 100%;
+}
+
+.divLeft
+{
+    background: linear-gradient(rgb(142, 45, 226) 0%, rgb(74, 0, 224) 100%);
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.divRight
+{
+    background-color: #EEEEFF;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Lado Izquierdo */
+.divUsuActual
+{
+    cursor: pointer;
+}
+
+.iconPrincipal
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.nomUsuPrincipal
+{
+    padding-left: 0.5rem;
+    line-height: 50px;
+}
+
+.preMenu
+{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.nav_link
+{
+    color: white;
+}
+
+.nav_link:hover
+{
+    color: rgb(247, 138, 138);
+    text-decoration: none;
+
+}
+
+.activoMenuChat
+{
+    color: rgb(247, 138, 138);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#contenListChats
+{
+    height: 400px;
+    overflow: auto;
+}
+
+.avatarIcon
+{
+    /*background-color: crimson;*/
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.nomUsuList
+{
+    padding-top: 6px;
+    padding-left: 1rem;
+    
+}
+
+
+
+
+.containerScroll::-webkit-scrollbar {
+    width: 7px;     /* Tamaño del scroll en vertical */
+    height: 7px;    /* Tamaño del scroll en horizontal */
+    
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.containerScroll::-webkit-scrollbar-thumb {
+    background: rgb(174, 161, 248);
+    background: rgb(130, 109, 250);
+    border-radius: 4px;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.containerScroll::-webkit-scrollbar-track {
+    background: rgb(130, 109, 250);
+    background: rgb(174, 161, 248);
+    border-radius: 4px;
+}
+
+
+.divUnChat
+{
+    cursor: pointer;
+}
+
+
+
+/*---------------------*/
+#divTitChat
+{
+    height: 30px;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#divTitChat span
+{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#divEnviar
+{
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+}
+
+#divMensajes
+{
+    padding-top: 1rem;
+    overflow: auto;
+    height: calc( 100% - 90px );
+}
+
+
+.divUnMensaje
+{
+    padding-left: 1rem;
+    width: calc( 100% - 40px);
+}
+
+.unMensajeTitle
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.unMensajeCOntenido
+{
+    padding: 0.5rem;
+    background-color: #FFF;
+    border-radius: 0px 15px 0px 15px;
+    margin-right: 1rem;
+    display: block;
+    box-shadow: 2px 2px #EEE;
+    font-size: 13px;
+    margin-bottom: 0.75rem;
+}
+
+
+/*Modal*/
+.modal
+{
+    color: black;
+}
